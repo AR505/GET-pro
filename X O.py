@@ -35,7 +35,7 @@ def click(index):
 
         # التحقق من الفوز
         if check_winner():
-            messagebox.showinfo("🏆 لنتيجة", f" player {player} winner")
+            messagebox.showinfo("🏆result ", f" player {player} winner")
             reset()
         elif "" not in board:
             messagebox.showinfo("تعادل", "مفيش فائز المره دي!")

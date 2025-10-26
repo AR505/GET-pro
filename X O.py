@@ -90,3 +90,4 @@ for i in range(9):
 
 # تشغيل البرنامج
 root.mainloop()
+print (" good ") 

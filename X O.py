@@ -62,7 +62,7 @@ def reset():
     board = [""] * 9
     player = "O"
     for b in buttons:
-        b.configure(text="", fg_color="#3b3b3b", state="normal")
+        b.configure(text="", fg_color="#3b3b3b", state="normal")#الاعدادات تتغير من هنا
 
 # عنوان اللعبة في الأعلى
 title_label = ctk.CTkLabel(root, text="X Game O  ", font=("Arial", 26, "bold"), text_color="#00ffff")
